@@ -1,0 +1,26 @@
+{
+  "Index": {
+    "HangSengIndex": {
+      "ticker": "^HSI",
+      "strategy": "donchian_ATR"
+    },
+    "S&P500": {
+      "ticker": "^GSPC",
+      "strategy": "donchian"
+    }
+  },
+  "Stock": {
+    "Apple": {
+      "ticker": "AAPL",
+      "strategy": "donchian"
+    },
+    "Microsoft": {
+      "ticker": "MSFT",
+      "strategy": "donchian"
+    }
+  },
+  "Date": {
+    "Start": "2025-01-01",
+    "End": "2025-12-31"
+  }
+}

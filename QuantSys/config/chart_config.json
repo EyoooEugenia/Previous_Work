@@ -1,0 +1,40 @@
+{
+  "layout_dict": {
+    "figsize": [12, 8],
+    "nrows": 4,
+    "ncols": 1,
+    "left": 0.07,
+    "bottom": 0.15,
+    "right": 0.99,
+    "top": 0.96,
+    "hspace": 0.05,
+    "height_ratios": [3.5, 1, 1, 1]
+  },
+  "subplots_dict": {
+    "graph_fst": {
+      "graph_name": "kgraph",
+      "graph_type": { "ochl": null, "sma": [20, 30, 60] },
+      "ylabel": "Price",
+      "legend": "best"
+    },
+    "graph_sec": {
+      "graph_name": "volgraph",
+      "graph_type": { "vol": null },
+      "ylabel": "Volume",
+      "legend": "best"
+    },
+    "graph_thd": {
+      "graph_name": "kdjgraph",
+      "graph_type": { "kdj": null },
+      "ylabel": "KDJ",
+      "legend": "best"
+    },
+    "graph_fth": {
+      "graph_name": "macdgraph",
+      "graph_type": { "macd": null },
+      "ylabel": "MACD",
+      "xlabel": "Date",
+      "legend": "best"
+    }
+  }
+}

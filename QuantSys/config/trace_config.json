@@ -1,0 +1,49 @@
+{
+  "trace_layout": {
+    "figsize": [14, 10],
+    "nrows": 3,
+    "ncols": 1,
+    "left": 0.08,
+    "bottom": 0.15,
+    "right": 0.95,
+    "top": 0.95,
+    "wspace": 0.1,
+    "hspace": 0.45,
+    "height_ratios": [2, 1, 1],
+    "subplots": ["graph_fst", "graph_sec", "graph_thd"]
+  },
+  "trace_subplots": {
+    "trace_fst": {
+      "graph_name": "graph_fst",
+      "graph_type": {
+        "cash_profit": {
+          "cash_hold": 100000,
+          "slippage": 0.01,
+          "c_rate": 0.0003,
+          "t_rate": 0.001
+        }
+      },
+      "title": "Strategy Backtest Profit",
+      "ylabel": "Total Cash",
+      "legend": "best",
+      "xticks": 15
+    },
+    "trace_sec": {
+      "graph_name": "graph_sec",
+      "graph_type": { "close_retrace": null },
+      "title": "Stock Price Retrace",
+      "ylabel": "Price",
+      "legend": "best",
+      "xticks": 15
+    },
+    "trace_thd": {
+      "graph_name": "graph_thd",
+      "graph_type": { "cmp_profit": null },
+      "title": "Strategy vs Benchmark Profit",
+      "ylabel": "Log Profit",
+      "legend": "best",
+      "xticks": 15,
+      "xticklabels": "%Y-%m-%d"
+    }
+  }
+}
